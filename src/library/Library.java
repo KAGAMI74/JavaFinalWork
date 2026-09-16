@@ -89,6 +89,11 @@ public class Library {
         return true;
     }
 
+    /** 获取全部图书列表。 */
+    public ArrayList<Book> getBooks() {
+        return books;
+    }
+
     // ---------------- 统计（用到 Math 常用类） ----------------
 
     /** 已借出的图书数量。 */
