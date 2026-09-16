@@ -89,7 +89,7 @@ public class Library {
         return true;
     }
 
-    /** 全部图书（供后台自动保存线程读取）。 */
+    /** 全部图书（用于列表显示）。 */
     public ArrayList<Book> getBooks() {
         return books;
     }
